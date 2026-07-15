@@ -1,0 +1,18 @@
+{
+  "name": "hyclear-stock-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Checks Rühl24 HyClear variants with a real Chromium browser.",
+  "scripts": {
+    "check": "node scripts/check-stock.mjs",
+    "discover": "node scripts/discover-network.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

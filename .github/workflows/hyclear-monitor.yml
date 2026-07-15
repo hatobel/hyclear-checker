@@ -1,0 +1,85 @@
+name: HyClear stock monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Avoid the start of the hour, where scheduled GitHub Actions are more likely
+    # to be delayed. GitHub supports IANA time zones for schedules.
+    - cron: '17 8,19 * * *'
+      timezone: 'Europe/Berlin'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hyclear-stock-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Verify official npm registry
+        run: |
+          test "$(npm config get registry)" = "https://registry.npmjs.org/"
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const lock = JSON.parse(fs.readFileSync('package-lock.json', 'utf8'));
+          const invalid = Object.entries(lock.packages ?? {})
+            .filter(([, value]) => value.resolved)
+            .filter(([, value]) => !value.resolved.startsWith('https://registry.npmjs.org/'));
+          if (invalid.length > 0) {
+            console.error('Non-official package sources:', invalid);
+            process.exit(1);
+          }
+          NODE
+
+      - name: Install dependencies
+        run: npm ci --registry=https://registry.npmjs.org/
+
+      - name: Install Chromium
+        run: npx --no-install playwright install --with-deps chromium
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Check HyClear variants
+        run: npm run check
+
+      - name: Add result to workflow summary
+        run: cat status/notification.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyclear-diagnostics-${{ github.run_id }}
+          path: |
+            artifacts/
+            status/latest.json
+            status/notification.md
+          retention-days: 14
+
+      - name: Persist latest verified state
+        run: |
+          if git diff --quiet -- status/; then
+            echo "No state change to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status/latest.json status/last-known.json status/notification.md
+          git commit -m "chore: update HyClear stock status"
+          git push
