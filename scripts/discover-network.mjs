@@ -7,6 +7,7 @@ import {
   dismissCommonCookieDialogs,
   ensureDirectory,
   saveDiagnostics,
+  startRelevantNetworkTracker,
   waitForStableVariantState
 } from '../src/browser-helpers.mjs';
 
@@ -27,14 +28,35 @@ try {
   await dismissCommonCookieDialogs(page);
 
   for (const variant of VARIANTS) {
+    const dropdown = page.locator(SELECTOR);
+
+    if (variant.preselectValue) {
+      const tracker = startRelevantNetworkTracker(page);
+      try {
+        await dropdown.selectOption({ value: variant.preselectValue });
+        await tracker.waitForQuiet();
+        await page.waitForTimeout(1_500);
+      } finally {
+        tracker.stop();
+      }
+    }
+
     const recordStart = records.length;
-    await page.locator(SELECTOR).selectOption({ value: variant.value });
+    const tracker = startRelevantNetworkTracker(page);
+    let networkWait;
+    try {
+      await dropdown.selectOption({ value: variant.value });
+      networkWait = await tracker.waitForQuiet();
+    } finally {
+      tracker.stop();
+    }
+
     const snapshot = await waitForStableVariantState(page, variant);
     const variantRecords = records.slice(recordStart);
 
     await fs.writeFile(
       path.join(outputDirectory, `${variant.key}-snapshot.json`),
-      JSON.stringify(snapshot, null, 2),
+      JSON.stringify({ variant, networkWait, snapshot }, null, 2),
       'utf8'
     );
     await saveDiagnostics(page, outputDirectory, variant.key, variantRecords);

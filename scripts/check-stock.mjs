@@ -8,7 +8,11 @@ import {
   dismissCommonCookieDialogs,
   ensureDirectory,
   saveDiagnostics,
-  waitForStableVariantState
+  waitForStableVariantState,
+  startRelevantNetworkTracker,
+  startVariantProcessingProbe,
+  stopVariantProcessingProbe,
+  buildVariantProcessingEvidence
 } from '../src/browser-helpers.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -55,15 +59,64 @@ try {
         );
       }
 
-      await dropdown.selectOption({ value: variant.value });
-      await page.waitForFunction(
-        ({ selector, value }) => document.querySelector(selector)?.value === value,
-        { selector: SELECTOR, value: variant.value },
-        { timeout: 10_000 }
-      );
+      // Bubblegum is the initial page selection. For the positive control,
+      // deliberately switch to another option first and then back to Bubblegum.
+      // This verifies the full Gambio update path instead of accepting the initial
+      // active cart button as proof.
+      if (variant.preselectValue) {
+        const preselectionTracker = startRelevantNetworkTracker(page);
+        try {
+          await dropdown.selectOption({ value: variant.preselectValue });
+          await page.waitForFunction(
+            ({ selector, value }) => document.querySelector(selector)?.value === value,
+            { selector: SELECTOR, value: variant.preselectValue },
+            { timeout: 10_000 }
+          );
+          await preselectionTracker.waitForQuiet({
+            idleMs: 1_500,
+            timeoutMs: 15_000
+          });
+          await page.waitForTimeout(1_500);
+        } finally {
+          preselectionTracker.stop();
+        }
+      }
+
+      const networkStartIndex = networkRecords.length;
+      const targetNetworkTracker = startRelevantNetworkTracker(page);
+      await startVariantProcessingProbe(page);
+
+      let networkWait = null;
+      try {
+        await dropdown.selectOption({ value: variant.value });
+        await page.waitForFunction(
+          ({ selector, value }) => document.querySelector(selector)?.value === value,
+          { selector: SELECTOR, value: variant.value },
+          { timeout: 10_000 }
+        );
+
+        networkWait = await targetNetworkTracker.waitForQuiet({
+          idleMs: 1_500,
+          timeoutMs: 15_000
+        });
+      } finally {
+        targetNetworkTracker.stop();
+      }
 
       const snapshot = await waitForStableVariantState(page, variant);
-      const evaluation = evaluateVariantState(snapshot, variant);
+      const domProbe = await stopVariantProcessingProbe(page);
+      const processingEvidence = buildVariantProcessingEvidence(
+        networkRecords,
+        networkStartIndex,
+        variant,
+        domProbe,
+        networkWait
+      );
+      const evaluation = evaluateVariantState(
+        snapshot,
+        variant,
+        processingEvidence
+      );
 
       results.push({
         checkedAt: new Date().toISOString(),
@@ -99,6 +152,10 @@ const changes = [];
 const nextKnown = { ...previousState.variants };
 
 for (const result of results) {
+  // Positive controls are written to latest.json and the workflow summary, but
+  // never influence persisted target state, changes or notifications.
+  if (result.variant.monitor === false) continue;
+
   const previous = previousState.variants?.[result.variant.key] ?? null;
   if (result.status === 'available' || result.status === 'unavailable') {
     nextKnown[result.variant.key] = {
@@ -119,13 +176,24 @@ for (const result of results) {
   }
 }
 
-const available = results.filter(result => result.status === 'available');
+const available = results.filter(
+  result => result.variant.monitor !== false && result.status === 'available'
+);
 const shouldNotify = available.length > 0 || changes.length > 0;
 const latest = {
   generatedAt: new Date().toISOString(),
   productUrl: PRODUCT_URL,
   shouldNotify,
   changes,
+  controls: results
+    .filter(result => result.variant.control)
+    .map(result => ({
+      key: result.variant.key,
+      label: result.variant.label,
+      status: result.status,
+      checkedAt: result.checkedAt,
+      excludedFromNotifications: true
+    })),
   variants: results
 };
 
@@ -147,11 +215,15 @@ const notificationLines = [
   '',
   `Prüfzeit: ${latest.generatedAt}`,
   '',
-  ...results.map(
-    result =>
+  ...results.map(result => {
+    const controlLabel = result.variant.control
+      ? ' — Kontrollvariante, von Benachrichtigungen ausgeschlossen'
+      : '';
+    return (
       `- **${result.variant.label}** — \`${result.variant.articleNumber}\` — ` +
-      `**${statusLabel[result.status]}** — ${result.reason}`
-  )
+      `**${statusLabel[result.status]}**${controlLabel} — ${result.reason}`
+    );
+  })
 ];
 
 if (changes.length > 0) {

@@ -21,7 +21,7 @@ const base = {
   buttonClasses: ['btn', 'js-btn-add-to-cart']
 };
 
-test('returns available only for a validated variant with active cart button', () => {
+test('returns available for a processed target variant with active cart button', () => {
   assert.equal(evaluateVariantState(base, variant).status, 'available');
 });
 
@@ -47,7 +47,42 @@ test('returns unavailable for disabled/inactive cart button', () => {
   );
 });
 
-test('fails closed when Bubblegum or the generic article number remains active', () => {
+test('accepts generic article number for a safe unavailable result', () => {
+  const result = evaluateVariantState(
+    {
+      ...base,
+      articleNumber: 'HyClear',
+      buttonDisabled: true,
+      buttonClasses: [...base.buttonClasses, 'inactive', 'btn-inactive']
+    },
+    variant
+  );
+
+  assert.equal(result.status, 'unavailable');
+  assert.equal(result.validation.articleNumberMatches, false);
+  assert.equal(result.validation.variantIdentityValid, true);
+});
+
+test('does not report available with generic article number and no processing evidence', () => {
+  const result = evaluateVariantState(
+    { ...base, articleNumber: 'HyClear' },
+    variant
+  );
+
+  assert.equal(result.status, 'unverifiable');
+});
+
+test('reports available with generic article number after successful variant response', () => {
+  const result = evaluateVariantState(
+    { ...base, articleNumber: 'HyClear' },
+    variant,
+    { successfulVariantResponseObserved: true }
+  );
+
+  assert.equal(result.status, 'available');
+});
+
+test('fails closed when Bubblegum remains selected', () => {
   assert.equal(
     evaluateVariantState(
       {
@@ -56,8 +91,23 @@ test('fails closed when Bubblegum or the generic article number remains active',
         selectedLabel: 'Bubblegum',
         articleNumber: 'HyClear'
       },
-      variant
+      variant,
+      { successfulVariantResponseObserved: true }
     ).status,
     'unverifiable'
   );
+});
+
+test('uses any exact visible banner text when duplicate banners exist', () => {
+  const result = evaluateVariantState(
+    {
+      ...base,
+      bannerVisible: true,
+      bannerText: '',
+      visibleBannerTexts: ['', OUT_OF_STOCK_TEXT]
+    },
+    variant
+  );
+
+  assert.equal(result.status, 'unavailable');
 });
