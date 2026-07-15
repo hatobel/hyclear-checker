@@ -1,7 +1,85 @@
-{
-  "generatedAt": null,
+{  "generatedAt": "2026-07-15T18:50:22.248Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
-  "variants": []
+  "variants": [
+    {
+      "checkedAt": "2026-07-15T18:50:16.288Z",
+      "variant": {
+        "key": "orange",
+        "label": "Orangensaft",
+        "value": "518",
+        "articleNumber": "HyClear-Orange"
+      },
+      "snapshot": {
+        "selectedValue": "518",
+        "selectedLabel": "Orangensaft",
+        "articleNumber": "HyClear",
+        "bannerExists": true,
+        "bannerVisible": false,
+        "bannerText": "",
+        "buttonExists": true,
+        "buttonDisabled": true,
+        "buttonClasses": [
+          "btn",
+          "btn-lg",
+          "btn-buy",
+          "btn-block",
+          "js-btn-add-to-cart",
+          "btn-inactive",
+          "inactive"
+        ],
+        "buttonTitle": "In den Warenkorb",
+        "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
+        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat"
+      },
+      "status": "unverifiable",
+      "validation": {
+        "selectedValueMatches": true,
+        "selectedLabelMatches": true,
+        "articleNumberMatches": false,
+        "valid": false
+      },
+      "reason": "Die Zielvariante konnte nicht eindeutig validiert werden."
+    },
+    {
+      "checkedAt": "2026-07-15T18:50:21.598Z",
+      "variant": {
+        "key": "peach-passion-fruit",
+        "label": "Pfirsich-Maracuja",
+        "value": "521",
+        "articleNumber": "HyClear-Pfirsich-Maracuja"
+      },
+      "snapshot": {
+        "selectedValue": "521",
+        "selectedLabel": "Pfirsich-Maracuja",
+        "articleNumber": "HyClear",
+        "bannerExists": true,
+        "bannerVisible": false,
+        "bannerText": "",
+        "buttonExists": true,
+        "buttonDisabled": true,
+        "buttonClasses": [
+          "btn",
+          "btn-lg",
+          "btn-buy",
+          "btn-block",
+          "js-btn-add-to-cart",
+          "btn-inactive",
+          "inactive"
+        ],
+        "buttonTitle": "In den Warenkorb",
+        "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
+        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat"
+      },
+      "status": "unverifiable",
+      "validation": {
+        "selectedValueMatches": true,
+        "selectedLabelMatches": true,
+        "articleNumberMatches": false,
+        "valid": false
+      },
+      "reason": "Die Zielvariante konnte nicht eindeutig validiert werden."
+    }
+  ]
 }
