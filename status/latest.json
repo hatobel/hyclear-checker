@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-15T18:44:09.460Z",
+  "generatedAt": "2026-07-15T18:50:22.248Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
   "variants": [
     {
-      "checkedAt": "2026-07-15T18:44:05.359Z",
+      "checkedAt": "2026-07-15T18:50:16.288Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -44,7 +44,7 @@
       "reason": "Die Zielvariante konnte nicht eindeutig validiert werden."
     },
     {
-      "checkedAt": "2026-07-15T18:44:09.132Z",
+      "checkedAt": "2026-07-15T18:50:21.598Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
