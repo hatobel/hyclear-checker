@@ -1,24 +1,294 @@
-{  "generatedAt": "2026-07-15T18:50:22.248Z",
+{
+  "generatedAt": "2026-07-15T19:43:11.199Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
+  "controls": [
+    {
+      "key": "bubblegum-control",
+      "label": "Bubblegum",
+      "status": "available",
+      "checkedAt": "2026-07-15T19:43:10.545Z",
+      "excludedFromNotifications": true
+    }
+  ],
   "variants": [
     {
-      "checkedAt": "2026-07-15T18:50:16.288Z",
+      "checkedAt": "2026-07-15T19:42:41.354Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
         "value": "518",
-        "articleNumber": "HyClear-Orange"
+        "articleNumber": "HyClear-Orange",
+        "monitor": true
       },
       "snapshot": {
         "selectedValue": "518",
         "selectedLabel": "Orangensaft",
         "articleNumber": "HyClear",
         "bannerExists": true,
+        "bannerCount": 17,
         "bannerVisible": false,
         "bannerText": "",
+        "visibleBannerTexts": [],
+        "banners": [
+          {
+            "index": 0,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 1,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 2,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 3,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 4,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 5,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 6,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 7,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 8,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 9,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 10,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 11,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 12,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 13,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 14,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 15,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 16,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          }
+        ],
         "buttonExists": true,
+        "buttonCount": 1,
+        "buttonVisible": true,
         "buttonDisabled": true,
         "buttonClasses": [
           "btn",
@@ -30,34 +300,362 @@
           "inactive"
         ],
         "buttonTitle": "In den Warenkorb",
+        "buttons": [
+          {
+            "index": 0,
+            "visible": true,
+            "disabled": true,
+            "classes": [
+              "btn",
+              "btn-lg",
+              "btn-buy",
+              "btn-block",
+              "js-btn-add-to-cart",
+              "btn-inactive",
+              "inactive"
+            ],
+            "title": "In den Warenkorb",
+            "text": ".cls-1{fill:none;}cart\n        In den Warenkorb"
+          }
+        ],
         "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
-        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat"
+        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
+        "waitDiagnostics": {
+          "exitReason": "inactive-button-stable-after-banner-grace",
+          "elapsedMs": 8112,
+          "elapsedSinceTargetMs": 8105,
+          "sampleCount": 17,
+          "stableCount": 16,
+          "minimumWaitMs": 4000,
+          "unavailableBannerGraceMs": 8000,
+          "transitions": [
+            {
+              "elapsedMs": 7,
+              "selectedValue": "518",
+              "selectedLabel": "Orangensaft",
+              "bannerVisible": false,
+              "bannerText": "",
+              "visibleBannerTexts": [],
+              "buttonVisible": true,
+              "buttonDisabled": true,
+              "buttonClasses": [
+                "btn",
+                "btn-lg",
+                "btn-buy",
+                "btn-block",
+                "js-btn-add-to-cart",
+                "btn-inactive",
+                "inactive"
+              ]
+            }
+          ]
+        }
       },
-      "status": "unverifiable",
+      "status": "unavailable",
       "validation": {
         "selectedValueMatches": true,
         "selectedLabelMatches": true,
         "articleNumberMatches": false,
-        "valid": false
+        "variantIdentityValid": true,
+        "serverProcessed": true,
+        "valid": true
       },
-      "reason": "Die Zielvariante konnte nicht eindeutig validiert werden."
+      "processingEvidence": {
+        "networkRecordsAfterSelection": 4,
+        "variantRequestObserved": false,
+        "successfulVariantResponseObserved": false,
+        "relevantDomMutationObserved": true,
+        "domMutationCount": 42432,
+        "networkWait": {
+          "observedRequests": 1,
+          "finishedRequests": 3,
+          "failedRequests": 0,
+          "inFlightRequests": 0,
+          "quietForMs": 1530,
+          "elapsedMs": 3164,
+          "timedOut": false
+        },
+        "matchedRequestUrls": [],
+        "matchedResponseUrls": []
+      },
+      "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-07-15T18:50:21.598Z",
+      "checkedAt": "2026-07-15T19:42:56.422Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
         "value": "521",
-        "articleNumber": "HyClear-Pfirsich-Maracuja"
+        "articleNumber": "HyClear-Pfirsich-Maracuja",
+        "monitor": true
       },
       "snapshot": {
         "selectedValue": "521",
         "selectedLabel": "Pfirsich-Maracuja",
         "articleNumber": "HyClear",
         "bannerExists": true,
+        "bannerCount": 17,
         "bannerVisible": false,
         "bannerText": "",
+        "visibleBannerTexts": [],
+        "banners": [
+          {
+            "index": 0,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 1,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 2,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 3,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 4,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 5,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 6,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 7,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 8,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 9,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 10,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 11,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 12,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 13,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 14,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 15,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 16,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          }
+        ],
         "buttonExists": true,
+        "buttonCount": 1,
+        "buttonVisible": true,
         "buttonDisabled": true,
         "buttonClasses": [
           "btn",
@@ -69,17 +667,453 @@
           "inactive"
         ],
         "buttonTitle": "In den Warenkorb",
+        "buttons": [
+          {
+            "index": 0,
+            "visible": true,
+            "disabled": true,
+            "classes": [
+              "btn",
+              "btn-lg",
+              "btn-buy",
+              "btn-block",
+              "js-btn-add-to-cart",
+              "btn-inactive",
+              "inactive"
+            ],
+            "title": "In den Warenkorb",
+            "text": ".cls-1{fill:none;}cart\n        In den Warenkorb"
+          }
+        ],
         "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
-        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat"
+        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
+        "waitDiagnostics": {
+          "exitReason": "inactive-button-stable-after-banner-grace",
+          "elapsedMs": 8111,
+          "elapsedSinceTargetMs": 8105,
+          "sampleCount": 17,
+          "stableCount": 16,
+          "minimumWaitMs": 4000,
+          "unavailableBannerGraceMs": 8000,
+          "transitions": [
+            {
+              "elapsedMs": 6,
+              "selectedValue": "521",
+              "selectedLabel": "Pfirsich-Maracuja",
+              "bannerVisible": false,
+              "bannerText": "",
+              "visibleBannerTexts": [],
+              "buttonVisible": true,
+              "buttonDisabled": true,
+              "buttonClasses": [
+                "btn",
+                "btn-lg",
+                "btn-buy",
+                "btn-block",
+                "js-btn-add-to-cart",
+                "btn-inactive",
+                "inactive"
+              ]
+            }
+          ]
+        }
       },
-      "status": "unverifiable",
+      "status": "unavailable",
       "validation": {
         "selectedValueMatches": true,
         "selectedLabelMatches": true,
         "articleNumberMatches": false,
-        "valid": false
+        "variantIdentityValid": true,
+        "serverProcessed": true,
+        "valid": true
       },
-      "reason": "Die Zielvariante konnte nicht eindeutig validiert werden."
+      "processingEvidence": {
+        "networkRecordsAfterSelection": 3,
+        "variantRequestObserved": false,
+        "successfulVariantResponseObserved": false,
+        "relevantDomMutationObserved": true,
+        "domMutationCount": 42432,
+        "networkWait": {
+          "observedRequests": 1,
+          "finishedRequests": 2,
+          "failedRequests": 0,
+          "inFlightRequests": 0,
+          "quietForMs": 1562,
+          "elapsedMs": 3251,
+          "timedOut": false
+        },
+        "matchedRequestUrls": [],
+        "matchedResponseUrls": []
+      },
+      "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
+    },
+    {
+      "checkedAt": "2026-07-15T19:43:10.545Z",
+      "variant": {
+        "key": "bubblegum-control",
+        "label": "Bubblegum",
+        "value": "517",
+        "articleNumber": "HyClear-Bubblegum",
+        "monitor": false,
+        "control": true,
+        "preselectValue": "518"
+      },
+      "snapshot": {
+        "selectedValue": "517",
+        "selectedLabel": "Bubblegum",
+        "articleNumber": "HyClear-Bubblegum",
+        "bannerExists": true,
+        "bannerCount": 17,
+        "bannerVisible": false,
+        "bannerText": "",
+        "visibleBannerTexts": [],
+        "banners": [
+          {
+            "index": 0,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden"
+            ],
+            "inlineStyle": "display: none;",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 1,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 2,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 3,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 4,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 5,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 6,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 7,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 8,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 9,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 10,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 11,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 12,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 13,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 14,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 15,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          },
+          {
+            "index": 16,
+            "visible": false,
+            "text": "",
+            "classes": [
+              "cart-error-msg",
+              "alert",
+              "alert-danger",
+              "hidden",
+              "hidden-grid"
+            ],
+            "inlineStyle": "",
+            "hiddenAttribute": false,
+            "ariaHidden": null
+          }
+        ],
+        "buttonExists": true,
+        "buttonCount": 1,
+        "buttonVisible": true,
+        "buttonDisabled": false,
+        "buttonClasses": [
+          "btn",
+          "btn-lg",
+          "btn-buy",
+          "btn-block",
+          "js-btn-add-to-cart"
+        ],
+        "buttonTitle": "In den Warenkorb",
+        "buttons": [
+          {
+            "index": 0,
+            "visible": true,
+            "disabled": false,
+            "classes": [
+              "btn",
+              "btn-lg",
+              "btn-buy",
+              "btn-block",
+              "js-btn-add-to-cart"
+            ],
+            "title": "In den Warenkorb",
+            "text": ".cls-1{fill:none;}cart\n        In den Warenkorb"
+          }
+        ],
+        "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
+        "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
+        "waitDiagnostics": {
+          "exitReason": "active-state-stable",
+          "elapsedMs": 4068,
+          "elapsedSinceTargetMs": 4052,
+          "sampleCount": 9,
+          "stableCount": 8,
+          "minimumWaitMs": 4000,
+          "unavailableBannerGraceMs": 8000,
+          "transitions": [
+            {
+              "elapsedMs": 16,
+              "selectedValue": "517",
+              "selectedLabel": "Bubblegum",
+              "bannerVisible": false,
+              "bannerText": "",
+              "visibleBannerTexts": [],
+              "buttonVisible": true,
+              "buttonDisabled": false,
+              "buttonClasses": [
+                "btn",
+                "btn-lg",
+                "btn-buy",
+                "btn-block",
+                "js-btn-add-to-cart"
+              ]
+            }
+          ]
+        }
+      },
+      "status": "available",
+      "validation": {
+        "selectedValueMatches": true,
+        "selectedLabelMatches": true,
+        "articleNumberMatches": true,
+        "variantIdentityValid": true,
+        "serverProcessed": true,
+        "valid": true
+      },
+      "processingEvidence": {
+        "networkRecordsAfterSelection": 2,
+        "variantRequestObserved": true,
+        "successfulVariantResponseObserved": true,
+        "relevantDomMutationObserved": true,
+        "domMutationCount": 46873,
+        "networkWait": {
+          "observedRequests": 1,
+          "finishedRequests": 1,
+          "failedRequests": 0,
+          "inFlightRequests": 0,
+          "quietForMs": 1502,
+          "elapsedMs": 2032,
+          "timedOut": false
+        },
+        "matchedRequestUrls": [
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1784144579374"
+        ],
+        "matchedResponseUrls": [
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1784144579374"
+        ]
+      },
+      "reason": "Zielvariante ausgewählt; Variantenverarbeitung nachgewiesen; kein Banner; Warenkorb-Button aktiv."
     }
   ]
 }
