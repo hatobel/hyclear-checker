@@ -1,6 +1,6 @@
 # HyClear-Verfügbarkeitsprüfung
 
-Prüfzeit: 2026-08-14T07:53:28.485Z
+Prüfzeit: 2026-08-15T06:59:45.070Z
 
 - **Orangensaft** — `HyClear-Orange` — **NICHT VERFÜGBAR** — Der Warenkorb-Button ist deaktiviert oder inaktiv.
 - **Pfirsich-Maracuja** — `HyClear-Pfirsich-Maracuja` — **NICHT VERFÜGBAR** — Der Warenkorb-Button ist deaktiviert oder inaktiv.
