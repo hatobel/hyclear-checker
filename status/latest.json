@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T11:42:40.673Z",
+  "generatedAt": "2026-09-01T19:58:42.745Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "available",
-      "checkedAt": "2026-09-01T11:42:40.148Z",
+      "checkedAt": "2026-09-01T19:58:42.210Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-09-01T11:42:10.120Z",
+      "checkedAt": "2026-09-01T19:57:49.080Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -323,14 +323,14 @@
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
           "elapsedMs": 8099,
-          "elapsedSinceTargetMs": 8094,
+          "elapsedSinceTargetMs": 8093,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 5,
+              "elapsedMs": 6,
               "selectedValue": "518",
               "selectedLabel": "Orangensaft",
               "bannerVisible": false,
@@ -361,18 +361,18 @@
         "valid": true
       },
       "processingEvidence": {
-        "networkRecordsAfterSelection": 4,
+        "networkRecordsAfterSelection": 5,
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
         "domMutationCount": 43888,
         "networkWait": {
-          "observedRequests": 1,
+          "observedRequests": 2,
           "finishedRequests": 3,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1509,
-          "elapsedMs": 3157,
+          "quietForMs": 1588,
+          "elapsedMs": 3242,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -381,7 +381,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-09-01T11:42:26.548Z",
+      "checkedAt": "2026-09-01T19:58:24.111Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -689,15 +689,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8096,
-          "elapsedSinceTargetMs": 8090,
+          "elapsedMs": 8094,
+          "elapsedSinceTargetMs": 8089,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 6,
+              "elapsedMs": 5,
               "selectedValue": "521",
               "selectedLabel": "Pfirsich-Maracuja",
               "bannerVisible": false,
@@ -732,14 +732,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 44310,
+        "domMutationCount": 57814,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1559,
-          "elapsedMs": 3264,
+          "quietForMs": 1560,
+          "elapsedMs": 6775,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -748,7 +748,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-09-01T11:42:40.148Z",
+      "checkedAt": "2026-09-01T19:58:42.210Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
@@ -1055,8 +1055,8 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "active-state-stable",
-          "elapsedMs": 4051,
-          "elapsedSinceTargetMs": 4043,
+          "elapsedMs": 4063,
+          "elapsedSinceTargetMs": 4055,
           "sampleCount": 9,
           "stableCount": 8,
           "minimumWaitMs": 4000,
@@ -1096,21 +1096,21 @@
         "variantRequestObserved": true,
         "successfulVariantResponseObserved": true,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 49069,
+        "domMutationCount": 48193,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 1,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1593,
-          "elapsedMs": 2024,
+          "quietForMs": 1502,
+          "elapsedMs": 1923,
           "timedOut": false
         },
         "matchedRequestUrls": [
-          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788262949059"
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788292711287"
         ],
         "matchedResponseUrls": [
-          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788262949059"
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788292711287"
         ]
       },
       "reason": "Zielvariante ausgewählt; Variantenverarbeitung nachgewiesen; kein Banner; Warenkorb-Button aktiv."
