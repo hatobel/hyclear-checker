@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:58:42.745Z",
+  "generatedAt": "2026-09-02T11:22:57.244Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "available",
-      "checkedAt": "2026-09-01T19:58:42.210Z",
+      "checkedAt": "2026-09-02T11:22:56.604Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-09-01T19:57:49.080Z",
+      "checkedAt": "2026-09-02T11:22:22.280Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -322,15 +322,34 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8099,
-          "elapsedSinceTargetMs": 8093,
+          "elapsedMs": 8102,
+          "elapsedSinceTargetMs": 8096,
           "sampleCount": 17,
-          "stableCount": 16,
+          "stableCount": 14,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
               "elapsedMs": 6,
+              "selectedValue": "518",
+              "selectedLabel": "Orangensaft",
+              "bannerVisible": false,
+              "bannerText": "",
+              "visibleBannerTexts": [],
+              "buttonVisible": true,
+              "buttonDisabled": true,
+              "buttonClasses": [
+                "btn",
+                "btn-lg",
+                "btn-buy",
+                "btn-block",
+                "js-btn-add-to-cart",
+                "btn-inactive",
+                "inactive"
+              ]
+            },
+            {
+              "elapsedMs": 1020,
               "selectedValue": "518",
               "selectedLabel": "Orangensaft",
               "bannerVisible": false,
@@ -361,18 +380,18 @@
         "valid": true
       },
       "processingEvidence": {
-        "networkRecordsAfterSelection": 5,
+        "networkRecordsAfterSelection": 2,
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 43888,
+        "domMutationCount": 36714,
         "networkWait": {
-          "observedRequests": 2,
-          "finishedRequests": 3,
+          "observedRequests": 0,
+          "finishedRequests": 0,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1588,
-          "elapsedMs": 3242,
+          "quietForMs": 1545,
+          "elapsedMs": 1545,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -381,7 +400,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-09-01T19:58:24.111Z",
+      "checkedAt": "2026-09-02T11:22:42.201Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -689,15 +708,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8094,
-          "elapsedSinceTargetMs": 8089,
+          "elapsedMs": 8125,
+          "elapsedSinceTargetMs": 8119,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 5,
+              "elapsedMs": 6,
               "selectedValue": "521",
               "selectedLabel": "Pfirsich-Maracuja",
               "bannerVisible": false,
@@ -732,14 +751,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 57814,
+        "domMutationCount": 43466,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1560,
-          "elapsedMs": 6775,
+          "quietForMs": 1544,
+          "elapsedMs": 3247,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -748,7 +767,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-09-01T19:58:42.210Z",
+      "checkedAt": "2026-09-02T11:22:56.604Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
@@ -1055,15 +1074,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "active-state-stable",
-          "elapsedMs": 4063,
-          "elapsedSinceTargetMs": 4055,
+          "elapsedMs": 4049,
+          "elapsedSinceTargetMs": 4044,
           "sampleCount": 9,
           "stableCount": 8,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 8,
+              "elapsedMs": 5,
               "selectedValue": "517",
               "selectedLabel": "Bubblegum",
               "bannerVisible": false,
@@ -1102,15 +1121,15 @@
           "finishedRequests": 1,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1502,
-          "elapsedMs": 1923,
+          "quietForMs": 1600,
+          "elapsedMs": 2043,
           "timedOut": false
         },
         "matchedRequestUrls": [
-          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788292711287"
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788348165629"
         ],
         "matchedResponseUrls": [
-          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788292711287"
+          "https://www.ruehl24.de/shop.php?do=CheckStatus&galleryHash=5a785b04dfe96818f5dcbaee5c0ca21d&modifiers%5Bproperty%5D%5B21%5D=517&products_id=421&products_qty=1&target=check&isProductInfo=1&page_token=&_=1788348165629"
         ]
       },
       "reason": "Zielvariante ausgewählt; Variantenverarbeitung nachgewiesen; kein Banner; Warenkorb-Button aktiv."
