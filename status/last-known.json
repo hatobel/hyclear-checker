@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-07T20:36:36.111Z",
+  "updatedAt": "2026-09-08T11:23:09.593Z",
   "variants": {
     "orange": {
       "status": "unavailable",
-      "checkedAt": "2026-09-07T20:36:07.689Z",
+      "checkedAt": "2026-09-08T11:22:42.031Z",
       "label": "Orangensaft",
       "articleNumber": "HyClear-Orange"
     },
     "peach-passion-fruit": {
       "status": "unavailable",
-      "checkedAt": "2026-09-07T20:36:21.651Z",
+      "checkedAt": "2026-09-08T11:22:55.589Z",
       "label": "Pfirsich-Maracuja",
       "articleNumber": "HyClear-Pfirsich-Maracuja"
     }
