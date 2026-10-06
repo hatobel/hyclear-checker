@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T23:12:06.951Z",
+  "generatedAt": "2026-10-06T13:22:37.922Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-10-05T23:12:06.306Z",
+      "checkedAt": "2026-10-06T13:22:37.276Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-10-05T23:11:18.951Z",
+      "checkedAt": "2026-10-06T13:21:49.912Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -23,13 +23,13 @@
         "monitor": true
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
     },
     {
-      "checkedAt": "2026-10-05T23:11:33.305Z",
+      "checkedAt": "2026-10-06T13:22:04.175Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -337,8 +337,8 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8132,
-          "elapsedSinceTargetMs": 8126,
+          "elapsedMs": 8120,
+          "elapsedSinceTargetMs": 8114,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
@@ -386,8 +386,8 @@
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1539,
-          "elapsedMs": 3180,
+          "quietForMs": 1545,
+          "elapsedMs": 3148,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-10-05T23:12:06.306Z",
+      "checkedAt": "2026-10-06T13:22:37.276Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
@@ -407,7 +407,7 @@
         "preselectValue": "518"
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
