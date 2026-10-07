@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T13:29:39.166Z",
+  "generatedAt": "2026-10-07T22:01:49.975Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-10-07T13:29:38.476Z",
+      "checkedAt": "2026-10-07T22:01:49.306Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-10-07T13:28:50.719Z",
+      "checkedAt": "2026-10-07T22:01:03.026Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "checkedAt": "2026-10-07T13:29:05.221Z",
+      "checkedAt": "2026-10-07T22:01:16.818Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -337,8 +337,8 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8106,
-          "elapsedSinceTargetMs": 8100,
+          "elapsedMs": 8102,
+          "elapsedSinceTargetMs": 8096,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
@@ -380,14 +380,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 42117,
+        "domMutationCount": 42534,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1526,
-          "elapsedMs": 3147,
+          "quietForMs": 1581,
+          "elapsedMs": 3171,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-10-07T13:29:38.476Z",
+      "checkedAt": "2026-10-07T22:01:49.306Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
