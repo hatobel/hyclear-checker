@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T21:46:02.639Z",
+  "generatedAt": "2026-10-10T12:36:55.842Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-10-09T21:46:02.211Z",
+      "checkedAt": "2026-10-10T12:36:55.176Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-10-09T21:45:16.388Z",
+      "checkedAt": "2026-10-10T12:36:08.892Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -23,13 +23,13 @@
         "monitor": true
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
     },
     {
-      "checkedAt": "2026-10-09T21:45:29.973Z",
+      "checkedAt": "2026-10-10T12:36:22.757Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -337,15 +337,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8087,
-          "elapsedSinceTargetMs": 8083,
+          "elapsedMs": 8115,
+          "elapsedSinceTargetMs": 8109,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 4,
+              "elapsedMs": 6,
               "selectedValue": "521",
               "selectedLabel": "Pfirsich-Maracuja",
               "bannerVisible": false,
@@ -376,18 +376,18 @@
         "valid": true
       },
       "processingEvidence": {
-        "networkRecordsAfterSelection": 3,
+        "networkRecordsAfterSelection": 2,
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 44626,
+        "domMutationCount": 42521,
         "networkWait": {
           "observedRequests": 1,
-          "finishedRequests": 2,
+          "finishedRequests": 1,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1597,
-          "elapsedMs": 3237,
+          "quietForMs": 1534,
+          "elapsedMs": 3046,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-10-09T21:46:02.211Z",
+      "checkedAt": "2026-10-10T12:36:55.176Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
@@ -407,7 +407,7 @@
         "preselectValue": "518"
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
