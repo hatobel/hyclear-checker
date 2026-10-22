@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T12:03:10.649Z",
+  "generatedAt": "2026-10-22T20:35:45.968Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-10-22T12:03:10.181Z",
+      "checkedAt": "2026-10-22T20:35:45.308Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-10-22T12:02:23.787Z",
+      "checkedAt": "2026-10-22T20:34:58.854Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -23,13 +23,13 @@
         "monitor": true
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
     },
     {
-      "checkedAt": "2026-10-22T12:02:37.679Z",
+      "checkedAt": "2026-10-22T20:35:12.744Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -337,15 +337,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8099,
-          "elapsedSinceTargetMs": 8089,
+          "elapsedMs": 8096,
+          "elapsedSinceTargetMs": 8090,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 10,
+              "elapsedMs": 6,
               "selectedValue": "521",
               "selectedLabel": "Pfirsich-Maracuja",
               "bannerVisible": false,
@@ -380,14 +380,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 45050,
+        "domMutationCount": 43775,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1585,
-          "elapsedMs": 3248,
+          "quietForMs": 1530,
+          "elapsedMs": 3189,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-10-22T12:03:10.181Z",
+      "checkedAt": "2026-10-22T20:35:45.308Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
