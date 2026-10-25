@@ -1,6 +1,6 @@
 # HyClear-Verfügbarkeitsprüfung
 
-Prüfzeit: 2026-10-25T12:37:02.178Z
+Prüfzeit: 2026-10-25T20:54:49.350Z
 
 - **Orangensaft** — `HyClear-Orange` — **NICHT VERIFIZIERBAR** — locator.selectOption: Timeout 30000ms exceeded.
 Call log:
@@ -19,6 +19,7 @@ Call log:
        - option being selected is not enabled
      - retrying select option action
        - waiting 500ms
+    - waiting for element to be visible and enabled
 
 - **Pfirsich-Maracuja** — `HyClear-Pfirsich-Maracuja` — **NICHT VERFÜGBAR** — Der Warenkorb-Button ist deaktiviert oder inaktiv.
 - **Bubblegum** — `HyClear-Bubblegum` — **NICHT VERIFIZIERBAR** — Kontrollvariante, von Benachrichtigungen ausgeschlossen — locator.selectOption: Timeout 30000ms exceeded.
