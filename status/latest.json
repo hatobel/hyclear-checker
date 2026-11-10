@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:38:41.209Z",
+  "generatedAt": "2026-11-10T23:26:21.702Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-11-10T15:38:40.524Z",
+      "checkedAt": "2026-11-10T23:26:21.147Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-11-10T15:37:53.149Z",
+      "checkedAt": "2026-11-10T23:25:35.241Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "checkedAt": "2026-11-10T15:38:07.509Z",
+      "checkedAt": "2026-11-10T23:25:48.816Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -337,15 +337,15 @@
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8108,
-          "elapsedSinceTargetMs": 8101,
+          "elapsedMs": 8147,
+          "elapsedSinceTargetMs": 8137,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
           "unavailableBannerGraceMs": 8000,
           "transitions": [
             {
-              "elapsedMs": 6,
+              "elapsedMs": 10,
               "selectedValue": "521",
               "selectedLabel": "Pfirsich-Maracuja",
               "bannerVisible": false,
@@ -380,14 +380,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 42951,
+        "domMutationCount": 41713,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1596,
-          "elapsedMs": 3256,
+          "quietForMs": 1535,
+          "elapsedMs": 3200,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-11-10T15:38:40.524Z",
+      "checkedAt": "2026-11-10T23:26:21.147Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
