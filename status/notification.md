@@ -1,6 +1,6 @@
 # HyClear-Verfügbarkeitsprüfung
 
-Prüfzeit: 2026-11-18T01:00:12.894Z
+Prüfzeit: 2026-11-18T16:30:05.647Z
 
 - **Orangensaft** — `HyClear-Orange` — **NICHT VERIFIZIERBAR** — locator.selectOption: Timeout 30000ms exceeded.
 Call log:
@@ -15,7 +15,7 @@ Call log:
       - option being selected is not enabled
     - retrying select option action
       - waiting 100ms
-    60 × waiting for element to be visible and enabled
+    59 × waiting for element to be visible and enabled
        - option being selected is not enabled
      - retrying select option action
        - waiting 500ms
@@ -34,7 +34,7 @@ Call log:
       - option being selected is not enabled
     - retrying select option action
       - waiting 100ms
-    60 × waiting for element to be visible and enabled
+    59 × waiting for element to be visible and enabled
        - option being selected is not enabled
      - retrying select option action
        - waiting 500ms
