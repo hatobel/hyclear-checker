@@ -1,6 +1,6 @@
 # HyClear-Verfügbarkeitsprüfung
 
-Prüfzeit: 2026-11-22T15:22:49.975Z
+Prüfzeit: 2026-11-22T23:39:13.765Z
 
 - **Orangensaft** — `HyClear-Orange` — **NICHT VERIFIZIERBAR** — locator.selectOption: Timeout 30000ms exceeded.
 Call log:
