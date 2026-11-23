@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:39:13.765Z",
+  "generatedAt": "2026-11-23T19:17:23.555Z",
   "productUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
   "shouldNotify": false,
   "changes": [],
@@ -8,13 +8,13 @@
       "key": "bubblegum-control",
       "label": "Bubblegum",
       "status": "unverifiable",
-      "checkedAt": "2026-11-22T23:39:13.081Z",
+      "checkedAt": "2026-11-23T19:17:22.870Z",
       "excludedFromNotifications": true
     }
   ],
   "variants": [
     {
-      "checkedAt": "2026-11-22T23:38:27.164Z",
+      "checkedAt": "2026-11-23T19:16:19.683Z",
       "variant": {
         "key": "orange",
         "label": "Orangensaft",
@@ -23,13 +23,13 @@
         "monitor": true
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
     },
     {
-      "checkedAt": "2026-11-22T23:38:40.719Z",
+      "checkedAt": "2026-11-23T19:16:39.540Z",
       "variant": {
         "key": "peach-passion-fruit",
         "label": "Pfirsich-Maracuja",
@@ -333,12 +333,12 @@
             "text": ".cls-1{fill:none;}cart\n        In den Warenkorb"
           }
         ],
-        "pageUrl": "https://www.ruehl24.de/de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
+        "pageUrl": "https://www.ruehl24.de/protein/whey-protein-isolat/HyClear-Whey-Protein-Hydrolysat.html",
         "pageTitle": "Rühl24 - Rühls Bestes Nahrungsergänzungen für Fitness und Bodybuilding - HyClear® Whey Protein Hydrolysat",
         "waitDiagnostics": {
           "exitReason": "inactive-button-stable-after-banner-grace",
-          "elapsedMs": 8125,
-          "elapsedSinceTargetMs": 8118,
+          "elapsedMs": 8114,
+          "elapsedSinceTargetMs": 8107,
           "sampleCount": 17,
           "stableCount": 16,
           "minimumWaitMs": 4000,
@@ -380,14 +380,14 @@
         "variantRequestObserved": false,
         "successfulVariantResponseObserved": false,
         "relevantDomMutationObserved": true,
-        "domMutationCount": 43350,
+        "domMutationCount": 48477,
         "networkWait": {
           "observedRequests": 1,
           "finishedRequests": 2,
           "failedRequests": 0,
           "inFlightRequests": 0,
-          "quietForMs": 1500,
-          "elapsedMs": 3093,
+          "quietForMs": 1559,
+          "elapsedMs": 4574,
           "timedOut": false
         },
         "matchedRequestUrls": [],
@@ -396,7 +396,7 @@
       "reason": "Der Warenkorb-Button ist deaktiviert oder inaktiv."
     },
     {
-      "checkedAt": "2026-11-22T23:39:13.081Z",
+      "checkedAt": "2026-11-23T19:17:22.870Z",
       "variant": {
         "key": "bubblegum-control",
         "label": "Bubblegum",
@@ -407,7 +407,7 @@
         "preselectValue": "518"
       },
       "status": "unverifiable",
-      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
+      "reason": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#modifier_group_21')\n    - locator resolved to <select id=\"modifier_group_21\" name=\"modifiers[property][21]\" class=\"form-control js-calculate\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - option being selected is not enabled\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - option being selected is not enabled\n     - retrying select option action\n       - waiting 500ms\n",
       "validation": {
         "valid": false
       }
